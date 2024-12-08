@@ -1,0 +1,59 @@
+:root {
+    --background-color1: #413532;
+    --background-color2: #374e68;
+    --background-color3: #415D16;
+    --background-color4: #ABA297;
+    --text-color: black;
+}
+
+*{
+    margin: auto;
+    padding: 0;
+    
+}
+
+.hero{
+    position: relative;
+    
+}
+
+.hero img{    
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.hero h1{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 500px;
+    text-align: center;
+    color: white;
+    font-size: 55px;    
+    padding: 5px;
+    height: auto;
+    margin-left: 500px;        
+}
+
+.hero article{
+    background-color: #aba2977a;
+    position: absolute; 
+    bottom: 80px; 
+    padding: 5px;
+    margin: auto;
+    font-size: 20px;        
+}
+
+.hero article img {    
+    float: right;
+    width: 30%;       
+    margin: auto;
+    height: auto;
+    text-align: center;
+       
+}
+
+footer nav {
+    text-decoration: none;    
+}
