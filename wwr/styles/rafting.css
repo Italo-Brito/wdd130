@@ -7,7 +7,7 @@
 }
 
 *{
-    margin: auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     
@@ -71,13 +71,13 @@ footer {
     margin: 1rem auto;
     display: grid;
     grid-template-columns: 4fr 1fr;
-    padding: 5px;
-       
-
-       
+    padding: 5px;       
 }
 footer p{
     align-self: center;
+    text-align: center;
+    font-size: 1em;
+    
 }
 .sociallinks {
     text-decoration: none;           
@@ -99,6 +99,10 @@ footer p{
     display: grid;
     grid-template-columns: 1fr 1fr;    
 }
+
+.grid1 img{
+    height: 85px;
+}
 header{
     background-color: var(--background-color4);
     margin: 0;
@@ -110,6 +114,7 @@ header nav {
     flex-wrap: wrap;
     list-style: none;
     padding: 0;
+    font-size: .9em;
 }
 header nav a {   
     padding: 1rem 3rem;
@@ -192,4 +197,126 @@ header img {
     margin-top: 2px;
     color: #000000;
     font-weight: bolder;
+}
+.bodyc{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    background-color: white;
+    
+}
+
+.contact{
+    background-color: #374e68;
+    padding: 5px;    
+    gap: 20px;
+}
+
+.contact h1 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2.7em;
+}
+
+.gridc {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.office{
+    margin: 0 auto;
+    width: 750px;
+    padding: 15px;
+    text-align: center;
+    gap: 20px;
+}
+
+.msg{
+    margin: 0 auto;
+    width: 750px;
+    padding: 15px;
+}
+
+.msgt{
+    margin: 1rem;
+    font-size: 2.5em;
+    color: navy;
+    text-align: center;
+}
+
+form{
+    width: 750px;
+    margin: 0 auto;
+    background-color: #eee;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    display: grid;    
+}   
+fieldset{
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+}
+legend{
+    padding: .5rem;
+    color: navy;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+label{
+    text-align: right;
+    padding: 1rem;
+}
+
+input, select, textarea{
+    padding: .5rem;
+    font-size: 1.1rem;    
+}
+input[type="checkbox"]{
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+.form-item{
+    display: grid;
+    align-items: center;
+}
+.column2{
+    grid-template-columns: 1fr .5fr;
+    display: flex;
+    justify-self: center;
+}
+.column1{
+    grid-template-columns: 1fr 2fr;
+}
+.column3{
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-self: center;
+}
+.i{
+    text-align: center;
+    font-size: 1.5em;
+    color: navy;
+    font-weight: bold;
+}
+
+button{
+    background-color: blue;
+    text-align: center;
+    padding: .75rem;
+    color: white;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    margin: 1rem;
+    border: none;    
+    display: flex; 
+    justify-self: center;   
+}
+button:hover{
+    background-color: rgb(26, 117, 133);
 }
