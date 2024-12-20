@@ -94,8 +94,7 @@ footer p{
 .sociallinks a {
     padding: 5px 10px;
     width: 12%;
-      
-    
+    color: navy;    
 }
 .sociallinks a img{
     max-width: 100%;
@@ -225,8 +224,26 @@ header img {
     margin-top: 50px;
     text-align: center;
     font-size: 2.7em;
+    color:antiquewhite ;
 }
-
+.grid-imgc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    unicode-bidi: isolate;
+    color: antiquewhite;
+    font-weight: bolder;
+    margin: 0 auto;
+    padding: 10px;
+}
+.grid-imgc img{
+    border-radius: .5rem;
+    padding: 5px;
+}
 .gridc {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -282,6 +299,7 @@ legend{
 }
 .legendh{
     text-align: center;
+    color: navy;
 }
 label{
     text-align: right;
